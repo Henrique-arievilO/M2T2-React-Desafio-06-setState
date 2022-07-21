@@ -1,7 +1,7 @@
 # Desafio 06 - setState: Contador 🖩
 
 ## 🔍 Objetivo:
-<p align="center">Entender como funcionam as proriedades de setState, revisar funções e condicionais já aprendidas em Java Script e praticar propriedades de CSS.</p>
+<p align="center">Entender como funcionam as propriedades de setState, revisar funções e condicionais já aprendidas em Java Script e praticar propriedades de CSS.</p>
 <br>
 
 ## 🪟 Preview:
