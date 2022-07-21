@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/M2T2-React-Desafio-06-setState/static/css/main.6ccf346c.css",
+    "main.js": "/M2T2-React-Desafio-06-setState/static/js/main.b73f33b9.js",
+    "static/media/311.png": "/M2T2-React-Desafio-06-setState/static/media/311.87a3ea1552b4439743fc.png",
+    "static/media/312.png": "/M2T2-React-Desafio-06-setState/static/media/312.6d97d8afb09174490571.png",
+    "index.html": "/M2T2-React-Desafio-06-setState/index.html",
+    "main.6ccf346c.css.map": "/M2T2-React-Desafio-06-setState/static/css/main.6ccf346c.css.map",
+    "main.b73f33b9.js.map": "/M2T2-React-Desafio-06-setState/static/js/main.b73f33b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ccf346c.css",
+    "static/js/main.b73f33b9.js"
+  ]
+}
