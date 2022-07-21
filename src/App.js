@@ -31,8 +31,8 @@ class App extends Component {
         <p>Clique no botão <span>+</span> para adicionar ou no botão <span>-</span> para reduzir um valor.</p>
         <p>Limite: 0-10</p>
         <div className='container'>
-          <figure className='pkm'>
-            <img src={Minun} alt='Minun' title='Minun'/>
+          <figure>
+            <img src={Minun} alt='Minun' title='Minun' className='pkm minun'/>
           </figure>
           <div className='counter'>
             <div className='light'>
@@ -45,8 +45,8 @@ class App extends Component {
               <button onClick={this.add}>+</button>
             </div>
           </div>
-          <figure className='pkm'>
-            <img src={Plusle} alt='Plusle' title='Plusle'/>
+          <figure>
+            <img src={Plusle} alt='Plusle' title='Plusle' className='pkm plusle'/>
           </figure>
         </div>
         <p id='footer'>&copy;Produzido por Wanderson Henrique Oliveira - Vai na Web - 2022.</p>

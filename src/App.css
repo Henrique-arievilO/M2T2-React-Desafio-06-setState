@@ -27,6 +27,7 @@ p{
   font-weight: lighter;
   line-height: 2rem;
   text-align: center;
+  width: 95%;
 }
 span{
   padding: 0 15px;
@@ -120,14 +121,10 @@ span{
   width: 15rem;
   height: 15rem;
   object-fit: cover;
-}
-.pkm img{
-  width: 16rem;
-  height: 16rem;
-  object-fit: cover;
   filter: saturate(2);
 }
 #footer{
+  width: 100%;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -135,10 +132,68 @@ span{
 }
 @keyframes blink {
   from{
+    filter: none;
+  }
+  to{
+    
     filter: drop-shadow(0px 0px 20px #a2a2ff);
     background: #009bc2;
   }
-  to{
-    filter: none;
+}
+@media (max-width: 720px) {
+  section{
+    height: 53rem;
+    overflow: hidden;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .pkm{
+    position: absolute;
+    top: 11rem;
+  }
+  .minun{
+    left: 2rem;
+  }
+  .plusle{
+    right: 2rem;
+  }
+  .counter{
+    top: 18rem;
+  }
+  #footer{
+    width: 100%;
+    bottom: -19rem;
+  }
+}
+@media (max-width: 500px) {
+  .counter{
+    top: 15rem;
+  }
+  .pkm{
+    width: 13rem;
+    height: 13rem;
+  }
+  .minun{
+    left: 0rem;
+  }
+  .plusle{
+    right: 0rem;
+  }
+}
+@media (max-width: 320px) {
+  .counter{
+    top: 13rem;
+  }
+  .pkm {
+    width: 11rem;
+    height: 11rem;
+    top: 11rem;
+  }
+  .minun{
+    left: 0rem;
+  }
+  .plusle{
+    right: 0rem;
   }
 }
